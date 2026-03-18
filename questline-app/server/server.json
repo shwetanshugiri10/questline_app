@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "HTML Hearth",
+    "xp_reward": 100,
+    "status": "available",
+    "prerequisite": null
+  },
+  {
+    "id": 2,
+    "title": "CSS Forge",
+    "xp_reward": 200,
+    "status": "locked",
+    "prerequisite": 1
+  },
+  {
+    "id": 3,
+    "title": "JS Logic Dungeon",
+    "xp_reward": 500,
+    "status": "locked",
+    "prerequisite": 2,
+    "boss_data": {
+      "question": "Which keyword is used to declare a constant in JS?",
+      "options": [
+        {"text": "var", "isCorrect": false},
+        {"text": "let", "isCorrect": false},
+        {"text": "const", "isCorrect": true},
+        {"text": "set", "isCorrect": false}
+      ]
+    }
+  }
+]

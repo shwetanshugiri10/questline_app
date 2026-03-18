@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "The HTML Hearth",
+    "description": "Master the structural bones of the internet.",
+    "xp_reward": 100,
+    "status": "available",
+    "type": "tutorial",
+    "prerequisite": null
+  },
+  {
+    "id": 2,
+    "title": "CSS Stylist’s Forge",
+    "description": "Learn to manipulate colors, layouts, and the dreaded Flexbox.",
+    "xp_reward": 150,
+    "status": "locked",
+    "type": "challenge",
+    "prerequisite": 1
+  },
+  {
+    "id": 3,
+    "title": "JS Logic Dungeon",
+    "description": "Enter the realm of variables, loops, and logic gates.",
+    "xp_reward": 300,
+    "status": "locked",
+    "type": "raid",
+    "prerequisite": 2,
+    "boss_data": {
+      "name": "The Loop Golem",
+      "hp": 100,
+      "questions": [
+        {
+          "text": "Which method adds an element to the END of an array?",
+          "options": [
+            { "text": ".push()", "isCorrect": true },
+            { "text": ".pop()", "isCorrect": false },
+            { "text": ".shift()", "isCorrect": false },
+            { "text": ".unshift()", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "What is the result of '2' + 2 in JavaScript?",
+          "options": [
+            { "text": "4", "isCorrect": false },
+            { "text": "'22'", "isCorrect": true },
+            { "text": "NaN", "isCorrect": false },
+            { "text": "undefined", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "React Architect’s Keep",
+    "description": "The final fortress. Master components and state management.",
+    "xp_reward": 1000,
+    "status": "locked",
+    "type": "final_boss",
+    "prerequisite": 3
+  }
+]
